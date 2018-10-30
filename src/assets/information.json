@@ -1,0 +1,231 @@
+{
+    "items": [
+        {
+            "name": "CP B4 Ground Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B4 1st Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B4 2nd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B4 3nd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B4 4nd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B4 Showers",
+            "children": [
+                {
+                    "name": "SH2"
+                },
+                {
+                    "name": "SH3"
+                },
+                {
+                    "name": "SH4"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 1st Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 2nd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 3rd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 4th Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 5th Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 6th Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 7th Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 8th Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B6 Ground Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B11 1st Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B11 2nd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B11 3rd Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B11 Ground Floor",
+            "children": [
+                {
+                    "name": "Male"
+                },
+                {
+                    "name": "Female"
+                }
+            ]
+        },
+        {
+            "name": "CP B11  Showers",
+            "children": [
+                {
+                    "name": "SH1"
+                },
+                {
+                    "name": "SH2"
+                },
+                {
+                    "name": "SH3"
+                }
+            ]
+        }
+        
+    ]
+}

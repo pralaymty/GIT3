@@ -1,0 +1,23 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+  <h2 class="mtitle" >Sign Off</h2>
+
+  <div class="scan-item" >
+  <ion-card *ngFor="let item of loc">
+    <h3 class="text_center" *ngIf="text == item.qrcode">You are about to sign off cleaning for {{item.store}} {{item.department}} </h3>
+  </ion-card>
+  
+  <!-- <ion-card >
+    <h3 class="text_center">Abcd </h3>
+  </ion-card> -->
+  </div>
+
+  <!-- <h3 class="text_center">You are about to sign off cleaning for {{abc.store}} {{abc.department}} </h3>   -->
+
+<button ion-button color="secondary" full (click) = dashbd() >Sign Off cleaning for this location here</button>
+<button ion-button color="dark" full (click) = signoff() >Cancel and return to scan QR code</button>
+<button ion-button color="textlight" full (click) = dashbd() >Home</button>
+
+
+</ion-content>
+

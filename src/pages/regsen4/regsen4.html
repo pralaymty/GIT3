@@ -1,0 +1,22 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+  <h2 class="mtitle">Register Sensor</h2>
+  <ion-grid >
+  <ion-row justify-content-center align-items-center style="height: 100%">
+    <ion-col col-12>
+        <h3 class="text_center" >Confirm your sensor's location</h3>
+        <ion-card *ngFor="let item of loc">
+          <div *ngIf="qrtext == item.qrcode" class="sensor_photo">
+            <h6> Serial number: {{item.qrcode}}</h6>
+            <h6>Location name: {{item.store | slice:3:9}} {{item.department}}</h6>
+            <h6>Location ID: {{item.store | slice:3:5}}{{item.store | slice:6:8}}{{item.department | slice:0:1}}</h6>
+          </div>
+        </ion-card>
+    </ion-col>
+    <ion-col col-12 class="text_center" >
+      <button ion-button full color="secondary" (click)=dashbd() >Save</button>
+      <button ion-button full color="dark" (click)=dashbd()>Cancel & Back</button>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-content>

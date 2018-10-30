@@ -1,0 +1,24 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+  <h2 class="mtitle">Hub Details</h2>
+
+  <ion-col col-12>
+      <p>Below are the current settings for this device</p>
+
+      <ion-card *ngFor="let item of loc">
+        <p *ngIf="text.text == item.qrcode">
+            Location Name: {{item.store | slice:3:9}} {{item.department}}<br/>
+            Location Id: {{item.store | slice:3:5}}{{item.store | slice:6:8}}{{item.department | slice:0:1}}<br/>
+            Last Seen: {{item.lastseen}}<br/>
+            Network Type: {{item.networktype}}<br/>
+            dBm: {{item.localnoise}}<br/>
+        </p>
+      </ion-card>
+
+
+<button ion-button color="violate" full (click)=hubloc() >Edit Location</button>
+<button ion-button color="yellow" full (click)=device() >Scan Another Device</button>
+<button ion-button color="secondary" full (click)=dashbd()>Home</button>
+
+  </ion-col>
+</ion-content>

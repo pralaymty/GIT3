@@ -1,0 +1,264 @@
+{
+    "locations": [
+            {
+                "area": "Building 4",
+                "store": "CP B4 1st Floor",
+                "department": "Male",
+                "type": "sensor",
+                "batterylavel": "100%",
+                "receivepower": "-88dBm",
+                "qrcode": "0:0:0:0:0:0:0:01"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 1st Floor",
+                "department": "Female",
+                "type": "sensor",
+                "batterylavel": "100%",
+                "receivepower": "-87dBm",
+                "qrcode": "0:0:0:0:0:0:0:02"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 2nd Floor",
+                "department": "Male",
+                "type": "sensor",
+                "batterylavel": "100%",
+                "receivepower": "-85dBm",
+                "qrcode": "0:0:0:0:0:0:0:03"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 2nd Floor",
+                "department": "Female",
+                "type": "hub",
+                "lastseen": "1 minute ago",
+                "networktype": "3G",
+                "localnoise": "-80dBm",
+                "qrcode": "0:0:0:0:0:0:0:04"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 3rd Floor",
+                "department": "Male",
+                "type": "hub",
+                "lastseen": "1 minute ago",
+                "networktype": "3G",
+                "localnoise": "-80dBm",
+                "qrcode": "0:0:0:0:0:0:0:05"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 3rd Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:06"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 4th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:07"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 4th Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:08"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 Ground Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:09"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 Ground Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:10"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 Showers",
+                "department": "SH2",
+                "qrcode": "0:0:0:0:0:0:0:11"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 Showers",
+                "department": "SH3",
+                "qrcode": "0:0:0:0:0:0:0:12"
+            },
+            {
+                "area": "Building 4",
+                "store": "CP B4 Showers",
+                "department": "SH4",
+                "qrcode": "0:0:0:0:0:0:0:13"
+            },
+
+            {
+                "area": "Building 6",
+                "store": "CP B6 1st Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:14"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 1st Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:15"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 2nd Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:16"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 3rd Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:17"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 3rd Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:18"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 4th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:19"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 5th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:20"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 5th Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:21"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 6th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:22"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 6th Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:23"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 7th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:24"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 7th Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:25"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 8th Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:26"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 8th Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:27"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 Ground Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:28"
+            },
+            {
+                "area": "Building 6",
+                "store": "CP B6 Ground Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:29"
+            },
+
+
+            {
+                "area": "Building 11",
+                "store": "CP B11 1st Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:30"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 1st Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:31"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 2nd Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:32"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 2nd Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:33"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 3rd Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:34"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 3rd Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:35"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 Ground Floor",
+                "department": "Male",
+                "qrcode": "0:0:0:0:0:0:0:36"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 Ground Floor",
+                "department": "Female",
+                "qrcode": "0:0:0:0:0:0:0:37"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 Showers",
+                "department": "SH1",
+                "qrcode": "0:0:0:0:0:0:0:38"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 Showers",
+                "department": "SH2",
+                "qrcode": "0:0:0:0:0:0:0:39"
+            },
+            {
+                "area": "Building 11",
+                "store": "CP B11 Showers",
+                "department": "SH3",
+                "qrcode": "0:0:0:0:0:0:0:40"
+            }
+    ]
+}

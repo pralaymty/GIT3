@@ -1,0 +1,26 @@
+{
+    "locations": [
+            {
+                "area": "Building 4",
+                "store": "B6 F2",
+                "department": "Mens",
+                "timeofalert": "19/10/18 13:30",
+                "qrcode": "0:0:0:0:0:0:0:01"
+            },
+            {
+                "area": "Building 4",
+                "store": "B4 F1",
+                "department": "Female",
+                "timeofalert": "19/10/18 14:00",
+                "qrcode": "0:0:0:0:0:0:0:02"
+            },
+            {
+                "area": "Building 4",
+                "store": "B6 F3",
+                "department": "Female",
+                "timeofalert": "19/10/18 15:00",
+                "qrcode": "0:0:0:0:0:0:0:03"
+            }
+            
+    ]
+}

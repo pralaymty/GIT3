@@ -1,0 +1,68 @@
+
+<ion-content padding id="home_page">
+  <!-- <img class="header_image" src="../assets/imgs/Logo2.PNG"/> -->
+  <h1><img class="logo_text" src="../assets/imgs/brand.png"/></h1>
+  <h6>Flexicount<br/> Powered By StoreTech</h6>
+
+  <h6>Please Sign In</h6>
+
+  <ion-list class="login_area">
+      <ion-row>
+        <ion-col col-12>
+            <ion-item class="ref_input">
+              <ion-label fixed>Username</ion-label>
+              <ion-input type="text" value=""></ion-input>
+            </ion-item>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+          <ion-col col-12>
+            <ion-item class="ref_input">
+              <ion-label fixed>Password</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+          </ion-col>
+      </ion-row>
+
+      <ion-row>
+          <ion-col col-6>
+              <ion-item>
+                <ion-label>English</ion-label>
+                <ion-select [(ngModel)]="language">
+                  <ion-option value="Russin">Russian</ion-option>
+                  <ion-option value="Urdu">Urdu</ion-option>
+                  <ion-option value="Hindi">Hindi</ion-option>
+                  <ion-option value="Chinise">Chinise</ion-option>
+                  <ion-option value="Spainish">Spainish</ion-option>
+                  <ion-option value="German">German</ion-option>
+                </ion-select>
+              </ion-item>
+          </ion-col>
+          <ion-col col-6>
+              <ion-item class="ckbx">
+                  <ion-label>Remember Me</ion-label>
+                  <ion-checkbox  checked="true"></ion-checkbox>
+              </ion-item>
+          </ion-col>
+      </ion-row>
+
+      <ion-row>
+          <ion-col col-12>
+            <button ion-button color="textlight" full (click)=login()>Log In</button>
+          </ion-col>
+      </ion-row>
+
+      <!-- <ion-row>
+          <ion-col col-6 class="text left">
+              privacy
+          </ion-col>
+          <ion-col col-6 class="text right">
+              forgot Password?
+          </ion-col>
+      </ion-row> -->
+
+    
+    </ion-list>
+</ion-content>
+

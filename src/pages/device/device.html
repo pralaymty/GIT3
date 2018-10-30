@@ -1,0 +1,31 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+  <h2 class="mtitle">View / Edit Device</h2>
+
+<ion-col col-12>
+    <h3 class="text_center" >Focus the hub or sensors QR code in the window below to edit its location.</h3>
+    <div class="qrscaner">
+    </div>
+      <button ion-button color="secondary" full (click) = scan2() large> Capture QR Code </button>
+
+      <ion-card *ngFor="let item of loc">
+        <ion-item *ngIf="text.text == item.qrcode && item.type == 'sensor' ? dsensor() : end"></ion-item>
+      </ion-card>
+      <ion-card *ngFor="let item of loc">
+        <ion-item *ngIf="text.text == item.qrcode && item.type == 'hub' ? dhub() : end"> </ion-item>
+      </ion-card>
+        <!-- <ng-template #elsetag>
+          <div>
+            {{item.type}}
+          </div>
+        </ng-template> -->
+      
+     <!-- <h2> {{text.text}}</h2> -->
+
+</ion-col>
+<!-- <ion-col col-12 class="text_center" >
+  <button ion-button full color="secondary" (click) = dsensor() >If Sensor Selected</button>
+  <button ion-button full color="dark" (click) = dhub()>If HUB Selected</button>
+</ion-col> -->
+
+</ion-content>

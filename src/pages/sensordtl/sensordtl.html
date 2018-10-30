@@ -1,0 +1,28 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+  <h2 class="mtitle">Sensor Details</h2>
+
+  <ion-col col-12>
+      <p>Below are the current settings for this device</p>
+
+      <!-- <ion-card *ngFor="let item of loc">
+        <h3 class="text_center" *ngIf="text == item.qrcode">You are about to sign off cleaning for {{item.store}} {{item.department}} </h3> 
+      </ion-card> -->
+
+      <ion-card *ngFor="let item of loc">
+          <p *ngIf="text.text == item.qrcode">
+              Serial Number: {{item.qrcode}}<br/>
+              Location Name: {{item.store | slice:3:9}} {{item.department}}<br/>
+              Location Id: {{item.store | slice:3:5}}{{item.store | slice:6:8}}{{item.department | slice:0:1}}<br/>
+              Last Seen: <br/>
+              Battery Level: {{item.batterylavel}}<br/>
+              dBm: {{item.receivepower}}<br/>
+          </p>
+        </ion-card>
+
+<button ion-button color="violate" full (click)=senloc() >Edit Location</button>
+<button ion-button color="yellow" full (click)=device() >Scan Another Device</button>
+<button ion-button color="primary" full (click)=dashbd()>Home</button>
+
+  </ion-col>
+</ion-content>

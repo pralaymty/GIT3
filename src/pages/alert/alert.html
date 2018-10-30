@@ -1,0 +1,60 @@
+<ion-content padding id="home_page">
+  <img class="header_image" src="../assets/imgs/brand.png"/>
+
+  <h2 class="mtitle">Alerts</h2>
+
+  <ion-col col-12>
+      <ion-item>
+          <ion-label>Select</ion-label>
+          <ion-select [(ngModel)]="toppings">
+            <ion-option>Today</ion-option>
+            <ion-option>This Week</ion-option>
+            <ion-option>Last Week</ion-option>
+          </ion-select>
+        </ion-item>
+  </ion-col>
+  <ion-col col-12>
+          <ion-row class="header">
+            <ion-col col-4>Location</ion-col>
+            <ion-col col-4>Time of Alert</ion-col>
+            <ion-col col-4>Signed Off</ion-col>
+          </ion-row>
+          
+          
+          <ion-row *ngFor="let item of information; let i = index">
+            <ion-col col-4>{{ item.store }} {{ item.department }} </ion-col>
+            <ion-col col-4>{{ item.timeofalert }}</ion-col>
+            <ion-col col-4></ion-col>
+          </ion-row>
+          
+
+          <ion-row class="blk_font">
+            <ion-col col-4>B2 F2 Mens</ion-col>
+            <ion-col col-4>18/10/18 16:30</ion-col>
+            <ion-col col-4>A.Jones 16:45</ion-col>
+          </ion-row>
+
+          <!-- <ion-row>
+            <ion-col col-4>B6 F2 Men</ion-col>
+            <ion-col col-4>14.00</ion-col>
+            <ion-col col-4></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col col-4>B6 F3 Female</ion-col>
+            <ion-col col-4>15.00</ion-col>
+            <ion-col col-4></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col col-4>B2 F2 Mens</ion-col>
+            <ion-col col-4>16.30</ion-col>
+            <ion-col col-4>A. Jones 16:45</ion-col>
+          </ion-row> -->
+  </ion-col>
+
+  <ion-col col-12>
+      <button ion-button color="textlight" full (click)=home() large>Home</button>
+      <!-- <button ion-button color="textlight" full (click)="addData()"> show data </button> -->
+   </ion-col>
+
+
+</ion-content>

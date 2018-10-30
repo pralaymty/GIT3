@@ -1,0 +1,120 @@
+{
+    "items": [
+            {
+                "name": "Building 1",
+                "children": [
+                    {
+                        "name": "1st Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "name": "Building 2",
+                "children": [
+                    {
+                        "name": "1st Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "name": "Building 3",
+                "children": [
+                    {
+                        "name": "1st Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd Floor",
+                        "children": [
+                            {
+                                "name": "Male"
+                            },
+                            {
+                                "name": "Female"
+                            }
+                        ]
+                    }
+                ]
+            }
+    ]
+}
