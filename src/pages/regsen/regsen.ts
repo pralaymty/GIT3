@@ -27,7 +27,7 @@ export class RegsenPage {
   }
   scan(){
     this.option={
-      prompt: "Focus the sensors QR codein the window below to Register Sensor"
+      prompt: "Focus the sensors QR code in the window below to Register Sensor"
     }
     this.barcodeScaner.scan(this.option).then(barcodeData => {
       console.log(barcodeData);
